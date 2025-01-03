@@ -1,4 +1,4 @@
-msgid ""
+temsgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:79
 #, c-format, boost-format
-msgid "%s has encountered an error. It was likely caused by running out of memory. If you are sure you have enough RAM on your system, this may also be a bug and we would be glad if you reported it."
+msgid "%s has encountered an error. It was likely caused by running out of memory. If you are sure you have enough RAM on your system, this may also be a bug and we would appreciate you reporting the issue."
 msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:84
@@ -67,7 +67,7 @@ msgid "AnkerMake_alpha has encountered a fatal error: \"%1%\""
 msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:85
-msgid "Please save your project and restart AnkerMake_alpha. We would be glad if you reported the issue."
+msgid "Please save your project and restart AnkerMake_alpha. We would appreciate you reporting the issue."
 msgstr ""
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:162 src/slic3r/GUI/BackgroundSlicingProcess.cpp:188
@@ -256,7 +256,7 @@ msgid "The selected file contains no geometry."
 msgstr ""
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:535
-msgid "The selected file contains several disjoint areas. This is not supported."
+msgid "The selected file contains several disjointed areas. This is not supported."
 msgstr ""
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:550
@@ -351,7 +351,7 @@ msgid "Value is the same as the system value"
 msgstr ""
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:128
-msgid "Value was changed and is not equal to the system value or the last saved preset"
+msgid "Value changed and is not equal to the system value or the last saved preset"
 msgstr ""
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:155
@@ -392,7 +392,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:62
 msgid ""
-"First layer height is not valid.\n"
+"First layer height is invalid.\n"
 "\n"
 "The first layer height will be reset to 0.01."
 msgstr ""
@@ -434,11 +434,11 @@ msgid "Wipe Tower"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:140 src/libslic3r/Print.cpp:672
-msgid "The Wipe Tower currently supports the non-soluble supports only if they are printed with the current extruder without triggering a tool change. (both support_material_extruder and support_material_interface_extruder need to be set to 0)."
+msgid "The Wipe Tower currently supports non-soluble supports only if they are printed with the current extruder without triggering a tool change. (both support_material_extruder and support_material_interface_extruder need to be set to 0)."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:144
-msgid "Shall I adjust those settings in order to enable the Wipe Tower?"
+msgid "Shall I adjust settings in order to enable the Wipe Tower?"
 msgstr ""
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:166
@@ -457,7 +457,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:194
 #, boost-format
-msgid "The %1% infill pattern is not supposed to work at 100%% density."
+msgid "The %1% infill pattern does not work at 100%% density."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:196
@@ -770,7 +770,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1424
 #, c-format, boost-format
-msgid "If enabled, %s registers to start on custom URL on www.printables.com. You will be able to use button with %s logo to open models in this %s. The model will be downloaded into folder you choose bellow."
+msgid "If enabled, %s registers to start on custom URL on www.printables.com. You will be able to use button with %s logo to open models in this %s. The model will be downloaded into the folder you choose bellow."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1431
@@ -778,7 +778,7 @@ msgid "On Linux systems the process of registration also creates desktop integra
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1458
-msgid "Chosen directory for downloads does not Exists."
+msgid "Chosen directory for downloads does not Exist."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1545 src/slic3r/GUI/GUI_Factories.cpp:810 src/slic3r/GUI/Plater.cpp:3732
@@ -813,7 +813,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1576
 msgid ""
-"AnkerMake_alpha's user interfaces comes in three variants:\n"
+"AnkerMake_alpha's user interface comes in three variants:\n"
 "Simple, Advanced, and Expert.\n"
 "The Simple mode shows only the most frequently used settings relevant for regular 3D printing. The other two offer progressively more sophisticated fine-tuning, they are suitable for advanced and expert users, respectively."
 msgstr ""
@@ -966,7 +966,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:2719
 #, boost-format
-msgid "Following printer profiles has no default material: %1%Please select one manually."
+msgid "The following printer profiles have no default material: %1%Please select one manually."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:2883
@@ -995,7 +995,7 @@ msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:3037
 msgid "A new vendor was installed and one of its printers will be activated"
-msgid_plural "New vendors were installed and one of theirs printers will be activated"
+msgid_plural "New vendors were installed and one of their printers will be activated"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1012,11 +1012,11 @@ msgid "Some Printers were uninstalled."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:3162
-msgid "A new filament was installed and it will be activated."
+msgid "A new filament was installed and activated."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:3163
-msgid "A new SLA material was installed and it will be activated."
+msgid "A new SLA material was installed and activated."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:3174
@@ -1028,7 +1028,7 @@ msgid "Some SLA materials were uninstalled."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:3218
-msgid "Custom printer was installed and it will be activated."
+msgid "Custom printer was installed and activated."
 msgstr ""
 
 #: src/slic3r/GUI/ConfigWizard.cpp:3306
@@ -1171,7 +1171,7 @@ msgid "Edit current color - Right click the colored slider segment"
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:1467
-msgid "This is wipe tower layer"
+msgid "This is the wipe tower layer"
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:1477
@@ -1259,7 +1259,7 @@ msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:1554
 msgid ""
-"There is a color change for extruder that won't be used till the end of print job.\n"
+"There is a color change for the extruder that won't be used until the end of print job.\n"
 "This code won't be processed during G-code generation."
 msgstr ""
 
@@ -1416,7 +1416,7 @@ msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:2156 src/slic3r/GUI/Tab.cpp:1263
 msgid ""
-"This action is not revertible.\n"
+"This action cannot be undone.\n"
 "Do you want to proceed?"
 msgstr ""
 
@@ -1435,7 +1435,7 @@ msgid "Custom G-code on current layer (%1% mm)."
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:2307
-msgid "Enter short message shown on Printer display when a print is paused"
+msgid "Enter a short message to display on printer when a print is paused"
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:2308
@@ -1456,7 +1456,7 @@ msgid "The last color change data was saved for a single extruder printing."
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:2585 src/slic3r/GUI/DoubleSlider.cpp:2601
-msgid "The last color change data was saved for a multi extruder printing."
+msgid "The last color change data was saved for a multi extruder print."
 msgstr ""
 
 #: src/slic3r/GUI/DoubleSlider.cpp:2587
@@ -1470,7 +1470,7 @@ msgstr ""
 #: src/slic3r/GUI/DoubleSlider.cpp:2602
 msgid ""
 "Select YES if you want to delete all saved tool changes, \n"
-"NO if you want all tool changes switch to color changes, \n"
+"NO if you want to switch all tool changes to color changes, \n"
 "or CANCEL to leave it unchanged."
 msgstr ""
 
@@ -1707,7 +1707,7 @@ msgstr ""
 #: src/slic3r/GUI/FirmwareDialog.cpp:915
 msgid ""
 "Are you sure you want to cancel firmware flashing?\n"
-"This could leave your printer in an unusable state!"
+"**This could leave your printer in an unusable state!**"
 msgstr ""
 
 #: src/slic3r/GUI/FirmwareDialog.cpp:916
@@ -2567,7 +2567,7 @@ msgid "Emboss"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:866
-msgid "ERROR: Wait until ends or Cancel process."
+msgid "ERROR: Wait until finished or Cancel process."
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:921
@@ -2661,7 +2661,7 @@ msgid "Advanced"
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1631
-msgid "Can't write text by selected font."
+msgid "Can't write text in selected font."
 msgstr ""
 
 #: src/slic3r/GUI/Gizmos/GLGizmoEmboss.cpp:1632
